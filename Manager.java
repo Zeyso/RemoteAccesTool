@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Manager {
     private static final int PORT = 8080;
-    private static final String SERVER_IP = "192.168.178.113";
+    private static final String SERVER_IP = "";
 
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket(SERVER_IP, PORT);
